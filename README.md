@@ -94,11 +94,15 @@ php artisan apifox:sync --all
 
 ## 安装
 
+支持 Laravel 10、11、12、13：
+
 ```bash
 composer require weijukeji/laravel-apifox-sync
 ```
 
 Laravel 会通过 package auto-discovery 自动注册服务提供者。
+
+说明：Laravel 13 的 PHP 版本要求由 Laravel / Illuminate 上游决定；项目安装 Laravel 13 时，请确保运行环境满足 Laravel 13 自身的 PHP 要求。
 
 如需自定义扫描路径或导入选项，可以发布配置文件：
 
